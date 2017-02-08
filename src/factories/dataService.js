@@ -21,7 +21,7 @@
           diameter: "4878 km",
           temperature: "452 K",
           moon_count: "0",
-          description: "African Sideneck Turtles are freshwater turtles. They were originally discovered in Eastern and Southern Africa. Fortunately, these turtles are not listed on the endangered species list, so acquiring one should not be too difficult. These reptiles are most active during the day time and have a lifespan of 25+ years! The shell of an African Sideneck Turtle can grow anywhere from eight to upwards of eighteen inches. So, this species is on the larger end of the spectrum for pet turtles."
+          description: "Mercury is the smallest and innermost planet in the Solar System. Its orbital period around the Sun of 88 days is the shortest of all the planets in the Solar System. It is named after the Roman deity Mercury, the messenger to the gods."
         },
         {
           name: "Venus",
@@ -31,7 +31,7 @@
           diameter: "12104 km",
           temperature: "726 K",
           moon_count: "0",
-          description: "They are known by Alligator snapping turtle. In some parts of the country they are also called as snapping turtle as well. That said, there is major difference between a snapping turtle and alligator snapping turtle. The later is much heavier in size and have a tremendously powerful jaw. The jaw bone is of very high strength."
+          description: "Venus is the second planet from the Sun, orbiting it every 224.7 Earth days.[13] It has the longest rotation period (243 days) of any planet in the Solar System and rotates in the opposite direction to most other planets. It has no natural satellite. It is named after the Roman goddess of love and beauty."
         },
         {
           name: "Earth",
@@ -42,7 +42,7 @@
           temperature: "298K",
           moon_count: "1",
           moon_names: ["Luna"],
-          description: "Because most wild turtles live in climates that have a wide range of temperatures, they need to hibernatethree to five months out of the year in order to stay alive. During these cold temperature spells, food is not as plentiful and the weather does not permit normal bodily functioning. It is during this time turtles tuck themselves tightly into their uniquely hatched shells and stay sheltered until spring. While some may assume this is a safe period, it is actually quite dangerous. These turtles must retain minimal bodily functions: digestion stops, heart rate slows, and eye movement ceases. This period is common for turtle deaths."
+          description: "Earth, otherwise known as the world, (Greek: Γαῖα Gaia; Latin: Terra) is the third planet from the Sun and the only object in the Universe known to harbor life. It is the densest planet in the Solar System and the largest of the four terrestrial planets."
         },
         {
           name: "Mars",
@@ -53,7 +53,7 @@
           temperature: "220K",
           moon_count: "2",
           moon_names: ["Phobos", "Deimos"],
-          description: "It primarily eats aquatic insects, fish, tadpoles, and frogs. When hunting the Snake necked turtled approaches with its neck held sideways thrusting its open mouth to grasp its prey and uses its jaws to shred its food into smaller pieces."
+          description: "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, after Mercury. Named after the Roman god of war, it is often referred to as the 'Red Planet'"
         },
         {
           name: "Jupiter",
@@ -64,7 +64,7 @@
           temperature: "120K",
           moon_count: "67",
           moon_names: ["Europa","Ganymede","Lo","Callisto","Adrastea","Amalthea","Thebe","Lysithea","Himalia","Kore"],
-          description: "The Indian Peacock Turtle is Generally found in India. It is currently listed as a vulnerable species. We are searching to find more information on this species of turtle."
+          description: "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a giant planet with a mass one-thousandth that of the Sun, but two and a half times that of all the other planets in the Solar System combined. Jupiter is a gas giant, along with Saturn, with the other two giant planets, Uranus and Neptune, being ice giants. Jupiter was known to astronomers of ancient times. The Romans named it after their god Jupiter."
         },
         {
           name: "Saturn",
@@ -75,7 +75,7 @@
           temperature: "88K",
           moon_count: "62",
           moon_names: ["Titan","Enceladus","Mimas","Lapetus","Dione","Rhea","Tethys","Phoebe","Pandora","Hyperion"],
-          description: "Musk turtles are one of the most famous turtles known to be a pet. These species are mostly found in Southern Canada and the Eastern United States. They are also called the Stinkpot. It got its name as stinkpot because it can release a foul and musky odor from its anal canal in order to dissuade predators."
+          description: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth. Although it has only one-eighth the average density of Earth, with its larger volume Saturn is just over 95 times more massive. Saturn is named after the Roman god of agriculture; its astronomical symbol (♄) represents the god's sickle."
         },
         {
           name: "Uranus",
@@ -86,7 +86,7 @@
           temperature: "59K",
           moon_count: "27",
           moon_names: ["Titania","Miranda","Umbriel","Ariel","Trinculo","Oberon","Puck","Cordelia","Francisco","Desdemona"],
-          description: "Originally from China, these turtles are primarily found in Eastern Asia and their range spans China, Korea, Japan, and Taiwan. They are also known as the Chinese pond turtle or Chinese three keeled turtle. They are pond turtle that prefer sluggish waters with soft bottoms, abundant aquatic vegetation and plenty of basking sites. They have also been found in marshes, swamps, and even rice paddies. Waddling pools or Koi ponds make excellent Reeves turtle habitats for they are not the best of swimmers."
+          description: "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have different bulk chemical composition from that of the larger gas giants Jupiter and Saturn."
         },
         {
           name: "Neptune",
@@ -97,27 +97,27 @@
           temperature: "48K",
           moon_count: "13",
           moon_names: ["Triton","S/2004 N 1","Laomedeia","Halimede","Nereid","Galatea","Proteus","Sao","Psamathe","Neso"],
-          description: "Spiny softshells begin mating between ages 8 and 10. A large female turtle may live up to 50 years. The turtles mate in mid-to-late spring in deep water. The male will nudge the female's head while swimming, and if she chooses to mate, the male will swim above the female without clasping her with his claws (unlike other turtles). A few months later, the female turtle quickly lays her eggs along a sunny sandbar or gravel bank in a flask-shaped cavity she has dug close to the water. The turtle nests more than once during a single season. She can lay between 9 and 38 round, calcareous-shelled eggs."
+          description: "Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet."
         }
       ];
-      var correctAnswers = [2,3,0,1,1,3];
+      var correctAnswers = [0,2,1,2,3,0];
 
       var quizQuestions = [
         {
           type: "text",
-          text: "How much can a loggerhead weigh?",
+          text: "Which is the brightest planet in the solar system?",
           possibilities: [
             {
-              answer: "Up to 20kg"
+              answer: "Venus"
             },
             {
-              answer: "Up to 115kg"
+              answer: "Mars"
             },
             {
-              answer: "Up to 220kg"
+              answer: "Jupiter"
             },
             {
-              answer: "Up to 500kg"
+              answer: "Mercury"
             }
           ],
           selected: null,
@@ -125,19 +125,19 @@
         },
         {
           type: "text",
-          text: "What is the typica lifespan of a Green Sea Turtle?",
+          text: "How many moons does the planet Uranus have?",
           possibilities: [
             {
-              answer: "150 years"
+              answer: "13"
             },
             {
-              answer: "10 years"
+              answer: "21"
             },
             {
-              answer: "80 years"
+              answer: "27"
             },
             {
-              answer: "40 years"
+              answer: "32"
             }
           ],
           selected: null,
@@ -145,19 +145,19 @@
         },
         {
           type: "image",
-          text: "Which of these is the Alligator Snapping Turtle?",
+          text: "Which of the following is a moon of the planet Mars?",
           possibilities: [
             {
-              answer: "turtles/african_sideneck_turtle.jpeg"
+              answer: "planets/europa_jupiter_moon.jpg"
             },
             {
-              answer: "turtles/alligator_snapping_turtle.jpeg"
+              answer: "planets/deimos_mars_moon.jpg"
             },
             {
-              answer: "turtles/box_turtle.jpeg"
+              answer: "planets/s2004n1_neptune_moon.jpg"
             },
             {
-              answer: "turtles/eastern_snake_necked_turtle.jpeg"
+              answer: "planets/titan_saturn_moon.jpg"
             }
           ],
           selected: null,
@@ -165,19 +165,19 @@
         },
         {
           type: "image",
-          text: "Which of these is the Eastern Snake Necked Turtle?",
+          text: "Which among these is not a moon of Saturn?",
           possibilities: [
             {
-              answer: "turtles/african_sideneck_turtle.jpeg"
+              answer: "planets/rhea_saturn_moon.jpg"
             },
             {
-              answer: "turtles/alligator_snapping_turtle.jpeg"
+              answer: "planets/phoebe_saturn_moon.jpg"
             },
             {
-              answer: "turtles/box_turtle.jpeg"
+              answer: "planets/miranda_uranus_moon.jpg"
             },
             {
-              answer: "turtles/eastern_snake_necked_turtle.jpeg"
+              answer: "planets/hyperion_saturn_moon.jpg"
             }
           ],
           selected: null,
@@ -185,19 +185,19 @@
         },
         {
           type: "text",
-          text: "What is the most common turtle in US waters?",
+          text: "Why Pluto is not considered as a planet anymore?",
           possibilities: [
             {
-              answer: "Loggerhead Turtle"
+              answer: "It had no moons"
             },
             {
-              answer: "Leatherback Turtle"
+              answer: "It was not orbiting around the sun"
             },
             {
-              answer: "Hawksbill Turtle"
+              answer: "It did not have enough gravity to be spherical"
             },
             {
-              answer: "Alligator Snapping Turtle"
+              answer: "It did not 'clear the neighborhood' of its orbit"
             }
           ],
           selected: null,
@@ -205,19 +205,19 @@
         },
         {
           type: "text",
-          text: "What is the largest sea turtle on earth?",
+          text: "How many pluto planets could fit inside the sun",
           possibilities: [
             {
-              answer: "Eastern Snake Necked Turtle"
+              answer: "250 million"
             },
             {
-              answer: "Olive Ridley Sea Turtle"
+              answer: "3 billion"
             },
             {
-              answer: "Kemp's Ridley Sea Turtle"
+              answer: "10 million"
             },
             {
-              answer: "Leatherback"
+              answer: "120 billion"
             }
           ],
           selected: null,
