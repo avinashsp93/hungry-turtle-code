@@ -1,6 +1,6 @@
 (function(){
   angular
-    .module("turtleFacts")
+    .module("planetFacts")
     .factory("quizMetrics", QuizMetrics);
 
     QuizMetrics.$inject = ['DataService'];

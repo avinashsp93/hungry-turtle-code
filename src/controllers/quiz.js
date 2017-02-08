@@ -1,6 +1,6 @@
 (function(){
   angular
-    .module("turtleFacts")
+    .module("planetFacts")
     .controller("quizCtrl", QuizController);
 
     QuizController.$inject = ['quizMetrics','DataService'];
@@ -21,7 +21,7 @@
       var numQuestionsAnswered = 0;
 
       function setActiveQuestion(index) {
-        if(index===undefined) {console.log('zzzz');
+        if(index===undefined) {
           var breakOut = false;
           var quizLength = DataService.quizQuestions.length - 1;
           while(!breakOut) {

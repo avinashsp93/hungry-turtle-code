@@ -30,11 +30,12 @@
                     <img ng-src="{{planet.image_url}}" class="img-rounded img-responsive well-image">
                   </div>
                   <div class="col-md-6">
-                    <h4>{{planet.type}}</h4>
-                    <p><strong>Locations: </strong>{{planet.locations}}</p>
-                    <p><strong>Size: </strong>{{planet.size}}</p>
-                    <p><strong>Average Lifespan: </strong>{{planet.average_lifespan}}</p>
-                    <p><strong>Diet: </strong>{{planet.diet}}</p>
+                    <h4>{{planet.name}}</h4>
+                    <p><strong>Distance: </strong>{{planet.distance}}</p>
+                    <p><strong>Mass: </strong>{{planet.mass}}</p>
+                    <p><strong>Diameter: </strong>{{planet.diameter}}</p>
+                    <p><strong>Temperature: </strong>{{planet.temperature}}</p>
+                    <p><strong>Moons: </strong>{{planet.moon_count}}</p>
                   </div>
                   <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#planet-info"
                   ng-click="list.changeActivePlanet(planet)">Learn More</button>
@@ -46,7 +47,7 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h2>{{list.activePlanet.type}}</h2>
+                  <h2>{{list.activePlanet.name}}</h2>
                 </div>
                 <div class="modal-body">
                   <div class="row">
@@ -56,10 +57,11 @@
                   </div>
                   <div class="row top-buffer">
                     <div class="col-md-6">
-                      <p><strong>Locations: </strong>{{list.activePlanet.locations}}</p>
-                      <p><strong>Size: </strong>{{list.activePlanet.size}}</p>
-                      <p><strong>Average Lifespan: </strong>{{list.activePlanet.average_lifespan}}</p>
-                      <p><strong>Diet: </strong>{{list.activePlanet.diet}}</p>
+                      <p><strong>Distance: </strong>{{list.activePlanet.distance}}</p>
+                      <p><strong>Mass: </strong>{{list.activePlanet.mass}}</p>
+                      <p><strong>Diameter: </strong>{{list.activePlanet.diameter}}</p>
+                      <p><strong>Temperature: </strong>{{list.activePlanet.temperature}}</p>
+                      <p><strong>Moons: </strong>{{list.activePlanet.moon_count}}</p>
                     </div>
                     <div class="col-xs-12 top-buffer">
                       <p>{{list.activePlanet.description}}</p>
