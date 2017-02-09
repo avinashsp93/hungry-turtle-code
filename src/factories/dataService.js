@@ -108,7 +108,7 @@
           description: "Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet."
         }
       ];
-      var correctAnswers = [0,2,1,2,3,0];
+      var correctAnswers = [0,2,1,2,3,0,2,2,2,1,3,0,1,3,1];
 
       var quizQuestions = [
         {
@@ -213,7 +213,7 @@
         },
         {
           type: "text",
-          text: "How many pluto planets could fit inside the sun",
+          text: "How many pluto planets could fit inside the sun?",
           possibilities: [
             {
               answer: "250 million"
@@ -226,6 +226,186 @@
             },
             {
               answer: "120 billion"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "Which is the biggest moon in the solar system?",
+          possibilities: [
+            {
+              answer: "Luna"
+            },
+            {
+              answer: "Titan"
+            },
+            {
+              answer: "Ganymede"
+            },
+            {
+              answer: "Triton"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "Astroid belt is situated between which of these planets?",
+          possibilities: [
+            {
+              answer: "Uranus and Neptune"
+            },
+            {
+              answer: "Jupiter and Saturn"
+            },
+            {
+              answer: "Mars and Jupiter"
+            },
+            {
+              answer: "Saturn and Uranus"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "What are Trans-Neptunian Objects?",
+          possibilities: [
+            {
+              answer: "Objects that are part of Astroid belt"
+            },
+            {
+              answer: "Smaller Objects around the rings of Neptune"
+            },
+            {
+              answer: "Planets orbiting around Sun farther than pluto"
+            },
+            {
+              answer: "Collective name given for moons of Neptune"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "How long does the sunlight take to reach Pluto?",
+          possibilities: [
+            {
+              answer: "Instantaneous"
+            },
+            {
+              answer: "Around 5.3 hours"
+            },
+            {
+              answer: "Around 17 hours"
+            },
+            {
+              answer: "Around 4 days and 8 hours"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "How far does the Heliosphere of sun extends?",
+          possibilities: [
+            {
+              answer: "At about 10,000 km from the surface of sun"
+            },
+            {
+              answer: "Till Mercury"
+            },
+            {
+              answer: "Till Earth"
+            },
+            {
+              answer: "Till Neptune and even beyond"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "The clouds of Venus are made of?",
+          possibilities: [
+            {
+              answer: "Sulphuric Acid"
+            },
+            {
+              answer: "Hydrogen and Helium"
+            },
+            {
+              answer: "Hydrochloric Acid"
+            },
+            {
+              answer: "Water and Carbon-Di-Oxide"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "Which of these planets has a retrograde rotation?",
+          possibilities: [
+            {
+              answer: "Mercury"
+            },
+            {
+              answer: "Venus"
+            },
+            {
+              answer: "Earth"
+            },
+            {
+              answer: "Mars"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "Which is the closest star to Earth after Sun?",
+          possibilities: [
+            {
+              answer: "Tau Ceti"
+            },
+            {
+              answer: "Venus"
+            },
+            {
+              answer: "Epsilon Eridani"
+            },
+            {
+              answer: "Proxima Centauri"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "What is the ratio of the photos received to the photos transmitted in Lunar Laser Ranging?",
+          possibilities: [
+            {
+              answer: "1 for every billion"
+            },
+            {
+              answer: "1 for every million trillion"
+            },
+            {
+              answer: "1 for every million billion"
+            },
+            {
+              answer: "1 for every million quadrillion"
             }
           ],
           selected: null,
