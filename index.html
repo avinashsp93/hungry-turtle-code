@@ -32,7 +32,7 @@
                   <div class="col-md-6">
                     <h4>{{planet.name}}</h4>
                     <p><strong>Distance: </strong>{{planet.distance}}</p>
-                    <p><strong>Mass: </strong>{{planet.mass}}</p>
+                    <p><strong>Mass: </strong>{{planet.mass_base}} x 10<sup>{{planet.mass_power}}</sup></p>
                     <p><strong>Diameter: </strong>{{planet.diameter}}</p>
                     <p><strong>Temperature: </strong>{{planet.temperature}}</p>
                     <p><strong>Moons: </strong>{{planet.moon_count}}</p>
@@ -58,7 +58,7 @@
                   <div class="row top-buffer">
                     <div class="col-md-6">
                       <p><strong>Distance: </strong>{{list.activePlanet.distance}}</p>
-                      <p><strong>Mass: </strong>{{list.activePlanet.mass}}</p>
+                      <p><strong>Mass: </strong>{{list.activePlanet.mass_base}} x 10<sup>{{list.activePlanet.mass_power}}</sup></p>
                       <p><strong>Diameter: </strong>{{list.activePlanet.diameter}}</p>
                       <p><strong>Temperature: </strong>{{list.activePlanet.temperature}}</p>
                       <p><strong>Moons: </strong>{{list.activePlanet.moon_count}}</p>
