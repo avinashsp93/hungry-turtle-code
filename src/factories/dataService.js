@@ -17,7 +17,8 @@
           name: "Mercury",
           image_url: "planets/mercury.jpg",
           distance: "57.9 million km",
-          mass: "3.3 x 10^23",
+          mass_base: "3.3",
+          mass_power:"23",
           diameter: "4878 km",
           temperature: "452 K",
           moon_count: "0",
@@ -27,7 +28,8 @@
           name: "Venus",
           image_url:"planets/venus.jpg",
           distance: "108.2 million km",
-          mass: "4.87 x 10^24",
+          mass_base: "4.87",
+          mass_power:"24",
           diameter: "12104 km",
           temperature: "726 K",
           moon_count: "0",
@@ -37,7 +39,8 @@
           name: "Earth",
           image_url:"planets/earth.jpg",
           distance: "149.6 million km",
-          mass: "5.98 x 10^24",
+          mass_base: "5.98",
+          mass_power:"24",
           diameter: "12756 km",
           temperature: "298K",
           moon_count: "1",
@@ -48,7 +51,8 @@
           name: "Mars",
           image_url:"planets/mars.jpg",
           distance: "227.9 million km",
-          mass: "6.42 x 10^23",
+          mass_base: "6.42",
+          mass_power:"23",
           diameter: "6787 km",
           temperature: "220K",
           moon_count: "2",
@@ -59,7 +63,8 @@
           name: "Jupiter",
           image_url:"planets/jupiter.jpg",
           distance: "778.3 million km",
-          mass: "1.9 x 10^27",
+          mass_base: "1.9",
+          mass_power:"27",
           diameter: "142796 km",
           temperature: "120K",
           moon_count: "67",
@@ -70,7 +75,8 @@
           name: "Saturn",
           image_url:"planets/saturn.jpg",
           distance: "1427.0 million km",
-          mass: "5.69 x 10^26",
+          mass_base: "5.69",
+          mass_power:"26",
           diameter: "120660 km",
           temperature: "88K",
           moon_count: "62",
@@ -81,7 +87,8 @@
           name: "Uranus",
           image_url:"planets/uranus.jpg",
           distance: "2871.0 million km",
-          mass: "8.68 x 10^25",
+          mass_base: "8.68",
+          mass_power:"25",
           diameter: "51118 km",
           temperature: "59K",
           moon_count: "27",
@@ -92,7 +99,8 @@
           name: "Neptune",
           image_url:"planets/neptune.jpg",
           distance: "4497.1 million km",
-          mass: "1.02 x 10^26",
+          mass_base: "1.02",
+          mass_power:"26",
           diameter: "48600 km",
           temperature: "48K",
           moon_count: "13",
@@ -100,7 +108,7 @@
           description: "Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet."
         }
       ];
-      var correctAnswers = [0,2,1,2,3,0];
+      var correctAnswers = [0,2,1,2,3,0,2,2,2,1,3,0,1,3,1];
 
       var quizQuestions = [
         {
@@ -205,7 +213,7 @@
         },
         {
           type: "text",
-          text: "How many pluto planets could fit inside the sun",
+          text: "How many pluto planets could fit inside the sun?",
           possibilities: [
             {
               answer: "250 million"
@@ -218,6 +226,186 @@
             },
             {
               answer: "120 billion"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "Which is the biggest moon in the solar system?",
+          possibilities: [
+            {
+              answer: "Luna"
+            },
+            {
+              answer: "Titan"
+            },
+            {
+              answer: "Ganymede"
+            },
+            {
+              answer: "Triton"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "Astroid belt is situated between which of these planets?",
+          possibilities: [
+            {
+              answer: "Uranus and Neptune"
+            },
+            {
+              answer: "Jupiter and Saturn"
+            },
+            {
+              answer: "Mars and Jupiter"
+            },
+            {
+              answer: "Saturn and Uranus"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "What are Trans-Neptunian Objects?",
+          possibilities: [
+            {
+              answer: "Objects that are part of Astroid belt"
+            },
+            {
+              answer: "Smaller Objects around the rings of Neptune"
+            },
+            {
+              answer: "Planets orbiting around Sun farther than pluto"
+            },
+            {
+              answer: "Collective name given for moons of Neptune"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "How long does the sunlight take to reach Pluto?",
+          possibilities: [
+            {
+              answer: "Instantaneous"
+            },
+            {
+              answer: "Around 5.3 hours"
+            },
+            {
+              answer: "Around 17 hours"
+            },
+            {
+              answer: "Around 4 days and 8 hours"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "How far does the Heliosphere of sun extends?",
+          possibilities: [
+            {
+              answer: "At about 10,000 km from the surface of sun"
+            },
+            {
+              answer: "Till Mercury"
+            },
+            {
+              answer: "Till Earth"
+            },
+            {
+              answer: "Till Neptune and even beyond"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "The clouds of Venus are made of?",
+          possibilities: [
+            {
+              answer: "Sulphuric Acid"
+            },
+            {
+              answer: "Hydrogen and Helium"
+            },
+            {
+              answer: "Hydrochloric Acid"
+            },
+            {
+              answer: "Water and Carbon-Di-Oxide"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "Which of these planets has a retrograde rotation?",
+          possibilities: [
+            {
+              answer: "Mercury"
+            },
+            {
+              answer: "Venus"
+            },
+            {
+              answer: "Earth"
+            },
+            {
+              answer: "Mars"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "Which is the closest star to Earth after Sun?",
+          possibilities: [
+            {
+              answer: "Tau Ceti"
+            },
+            {
+              answer: "Venus"
+            },
+            {
+              answer: "Epsilon Eridani"
+            },
+            {
+              answer: "Proxima Centauri"
+            }
+          ],
+          selected: null,
+          correct: null
+        },
+        {
+          type: "text",
+          text: "What is the ratio of the photos received to the photos transmitted in Lunar Laser Ranging?",
+          possibilities: [
+            {
+              answer: "1 for every billion"
+            },
+            {
+              answer: "1 for every million trillion"
+            },
+            {
+              answer: "1 for every million billion"
+            },
+            {
+              answer: "1 for every million quadrillion"
             }
           ],
           selected: null,
