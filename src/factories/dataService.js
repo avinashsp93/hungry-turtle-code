@@ -410,6 +410,6 @@
           ],
           selected: null,
           correct: null
-        },
+        }
       ];
 })();
