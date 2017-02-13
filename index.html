@@ -188,7 +188,7 @@
           <div class="well well-sm">
             <div class="row">
               <div class="col-sx-12">
-                <h4>{{results.activeQuestion+1 +". "+results.dataService.quizQuestions.results.activeQuestion.text}}</h4>
+                <h4>{{results.activeQuestion+1 +". "+results.dataService.quizQuestions[results.activeQuestion]text}}</h4>
               </div>
               <div class="row" ng-if="results.dataService.quizQuestions[results.activeQuestion].type === 'text'">
                 <div class="col-sm-6" ng-repeat="answer in results.dataService.quizQuestions[results.activeQuestion].possibilities">
