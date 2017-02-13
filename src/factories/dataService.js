@@ -393,7 +393,7 @@
         },
         {
           type: "text",
-          text: "What is the ratio of the photos received to the photos transmitted in Lunar Laser Ranging?",
+          text: "What is the ratio of the photons received to the photons transmitted in Lunar Laser Ranging?",
           possibilities: [
             {
               answer: "1 for every billion"
